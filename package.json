@@ -13,10 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/easy-webpack/config-typescript.git"
+    "url": "https://github.com/alpox/config-pug.git"
   },
   "keywords": [
-    "typescript",
+    "jade",
+    "pug",
     "webpack",
     "easy",
     "configurator",
@@ -27,9 +28,9 @@
   "author": "Elias Bernhaut <elias.be@gmx.ch>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/easy-webpack/config-pug/issues"
+    "url": "https://github.com/alpox/config-pug/issues"
   },
-  "homepage": "https://github.com/easy-webpack/config-pug#readme",
+  "homepage": "https://github.com/alpox/config-pug#readme",
   "devDependencies": {
     "ava": "^0.15.2",
     "greenkeeper-postpublish": "^1.0.0",
