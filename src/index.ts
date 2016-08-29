@@ -2,8 +2,8 @@ import {WebpackConfig, get} from '@easy-webpack/core'
 import * as path from 'path'
 
 /**
- * Typescript loader support for .ts
- * See: https://github.com/s-panferov/awesome-typescript-loader
+ * Pug loader support for .pug
+ * See: https://github.com/willyelm/pug-html-loader
  */
 export = function pug({exclude = null} = {}) {
   return function pug(this: WebpackConfig): WebpackConfig {
