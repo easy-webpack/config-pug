@@ -2,7 +2,6 @@
   "name": "@easy-webpack/config-pug",
   "description": "Easy Webpack configuration function for pug templates",
   "main": "dist/index.js",
-  "version": "1.0.0",
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "TS_NODE_FAST=true TS_NODE_NO_PROJECT=true ava",
@@ -13,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alpox/config-pug.git"
+    "url": "https://github.com/easy-webpack/config-pug.git"
   },
   "keywords": [
     "jade",
