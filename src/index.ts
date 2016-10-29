@@ -1,4 +1,4 @@
-import {WebpackConfig, get} from '@easy-webpack/core'
+import {WebpackConfigWithMetadata, get} from '@easy-webpack/core'
 import * as path from 'path'
 
 /**
@@ -6,7 +6,7 @@ import * as path from 'path'
  * See: https://github.com/willyelm/pug-html-loader
  */
 export = function pug({exclude = null} = {}) {
-  return function pug(this: WebpackConfig): WebpackConfig {
+  return function pug(this: WebpackConfigWithMetadata): WebpackConfigWithMetadata {
     const loader = {
       test: /\.pug$/,
       loader: 'pug-html',
