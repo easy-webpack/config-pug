@@ -18,7 +18,7 @@ export = function pug({exclude = null} = {}) {
         extensions: get(this, 'resolve.extensions', ['.js']).concat(['.pug'])
       },
       module: {
-        loaders: get(this, 'module.loaders', []).concat([loader])
+        rules: get(this, 'module.rules', []).concat([loader])
       }
     }
   }
