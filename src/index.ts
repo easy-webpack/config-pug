@@ -9,7 +9,7 @@ export = function pug({exclude = null} = {}) {
   return function pug(this: WebpackConfigWithMetadata): WebpackConfigWithMetadata {
     const loader = {
       test: /\.pug$/,
-      loader: 'pug-html',
+      loader: 'pug-html-loader',
       exclude: exclude || (this.metadata.root ? [path.join(this.metadata.root, 'node_modules')] : [])
     } as any
 
