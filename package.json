@@ -49,7 +49,7 @@
     "regenerator-runtime": "^0.9.5"
   },
   "peerDependencies": {
-    "@easy-webpack/core": "*"
+    "@easy-webpack/core": "1.4.5"
   },
   "ava": {
     "files": [
