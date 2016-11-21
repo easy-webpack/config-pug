@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "pug-html-loader": "^1.0.9",
-    "regenerator-runtime": "^0.9.5"
+    "regenerator-runtime": "^0.10.0"
   },
   "peerDependencies": {
     "@easy-webpack/core": "*"
